@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    padding: 10px 0 20px 0;
+    /* border: 1px solid black; */
+
+}
+ul{
+    display: flex;
+
+}
+ ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+.Dev{
+    margin-right: 60px;
+    margin-left: 0;
+}
+.main{
+    margin-top: 10px;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    /* align-items: center; */
+    /* background-color: rgb(182, 162, 162);
+    border-radius: 30px;
+    overflow: hidden; */
+}
+.left{
+ background-color: rgb(182, 162, 162);
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.container-2{
+    position: absolute;
+    right: 150px;
+    width: 30vw;
+    height: 100%;
+    margin-top: -20px;
+background-image: url(https://cdn.shopify.com/shopifycloud/shopify_dev/assets/home/home-new/hero/hero-1-473607895c3e08a78bced6946c3aeebd98dc4a92cb45b0ce84c4cf538a394b59.png.png);
+}
+.container-1{
+    position: absolute;
+    padding: 20px;
+    background-color: black;
+    color: green;
+    border-radius: 6px;
+    left: 150px;
+    top: 100px;
+}
